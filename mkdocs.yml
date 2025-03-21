@@ -1,0 +1,17 @@
+site_name: Foo
+
+theme:
+    name: material
+
+plugins:
+    - mkdocstrings:
+        handlers:
+            python:
+                options:
+                    force_inspection: true
+                    show_if_no_docstring: true
+                    show_root_heading: true
+                    show_signature_annotations: true
+
+nav:
+    - 'index.md'
